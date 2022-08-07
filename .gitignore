@@ -57,6 +57,7 @@ dkms.conf
 
 ### C++ ###
 # Prerequisites
+*.json
 
 # Compiled Object files
 *.slo
@@ -103,5 +104,15 @@ Temporary Items
 ### macOS Patch ###
 # iCloud generated files
 *.icloud
+
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,c++,c
